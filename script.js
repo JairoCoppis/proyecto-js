@@ -1,11 +1,3 @@
-
-
-
-let contenedorAlertas = document.getElementById("noticias")
-let input = document.getElementById("input")
-boton.addEventListener("click", elemento)
-
-
 let noticias = 
 
 [{imgURL: "images/energia.svg" , informacion: " CELDA informa un CORTE PROGRAMADO DE ENERGÍA ELÉCTRICA en el Sector Quintas al oeste de la localidad, específicamente usuarios desde calle Vieytes hacia el Aerogenerador y hasta el cementerio local, sin afectar al Parque Industrial. El mismo será mañana miércoles 12 del corriente, de 9:00 a 13:00hs aprox. motivo es por trabajos sobre líneas del sector."},
@@ -15,9 +7,24 @@ let noticias =
 {imgURL: "images/agua.svg", informacion: "CELDA informa un CORTE PROGRAMADO DE AGUA en el Sector Quintas al oeste de la localidad, específicamente usuarios desde calle Vieytes hacia el Aerogenerador y hasta el cementerio local, sin afectar al Parque Industrial. El mismo será mañana miércoles 12 del corriente, de 9:00 a 13:00hs aprox. motivo es por trabajos sobre líneas del sector." }
 ]
 
-function elemento() {
+
+let noticiasJSON = JSON.stringify(noticias)
+localStorage.setItem("noticias", noticiasJSON)
+
+
+let noticiasJS = JSON.parse(localStorage.getItem("noticias"))
+console.log(noticiasJS)
+
+//-----------------------------------------------------------------------------
+
+let contenedorAlertas = document.getElementById("noticias")
+let input = document.getElementById("input")
+boton.addEventListener("click", elemento)
+
+
+function elemento() { 
   
-for (const noticia of noticias) {
+for (const noticia of noticiasJS) {
   let tarjetaNoticia = document.createElement("div")
   tarjetaNoticia.className = "noticia"
   tarjetaNoticia.innerHTML = `
@@ -33,4 +40,3 @@ for (const noticia of noticias) {
   contenedorAlertas.append(tarjetaNoticia);
 }
 }
-
