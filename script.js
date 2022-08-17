@@ -1,3 +1,4 @@
+
 let noticias = 
 
 [{imgURL: "images/energia.svg" , informacion: " CELDA informa un CORTE PROGRAMADO DE ENERGÍA ELÉCTRICA en el Sector Quintas al oeste de la localidad, específicamente usuarios desde calle Vieytes hacia el Aerogenerador y hasta el cementerio local, sin afectar al Parque Industrial. El mismo será mañana miércoles 12 del corriente, de 9:00 a 13:00hs aprox. motivo es por trabajos sobre líneas del sector."},
@@ -18,9 +19,25 @@ console.log(noticiasJS)
 //-----------------------------------------------------------------------------
 
 let contenedorAlertas = document.getElementById("noticias")
+
+let botonAlert = document.getElementById("botonAlert")
+boton.addEventListener("click", mostrarAlerta)
+
 let input = document.getElementById("input")
 boton.addEventListener("click", elemento)
 
+function mostrarAlerta () {
+
+  Swal.fire({
+    title: 'Ultimas noticias!!',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+  })
+}
 
 function elemento() { 
   
