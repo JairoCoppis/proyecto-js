@@ -1,13 +1,15 @@
+{ 
+"noticiasDataJs": 
+[
+{"imgURL": "images/energia.svg", 
+ "informacion": " CELDA informa un CORTE PROGRAMADO DE ENERGÍA ELÉCTRICA en el Sector Quintas al oeste de la localidad, específicamente usuarios desde calle Vieytes hacia el Aerogenerador y hasta el cementerio local, sin afectar al Parque Industrial. El mismo será mañana miércoles 12 del corriente, de 9:00 a 13:00hs aprox. motivo es por trabajos sobre líneas del sector."},
 
+{"imgURL": "images/internet.svg",
+ "informacion": "CELDA informa un CORTE PROGRAMADO DE INTERNET en el Sector Quintas al oeste de la localidad, específicamente usuarios desde calle Vieytes hacia el Aerogenerador y hasta el cementerio local, sin afectar al Parque Industrial. El mismo será mañana miércoles 12 del corriente, de 9:00 a 13:00hs aprox. motivo es por trabajos sobre líneas del sector."},
 
-{
-"noticias": [
-
-{"imgURL": "images/energia.svg" , "informacion": " CELDA informa un CORTE PROGRAMADO DE ENERGÍA ELÉCTRICA en el Sector Quintas al oeste de la localidad, específicamente usuarios desde calle Vieytes hacia el Aerogenerador y hasta el cementerio local, sin afectar al Parque Industrial. El mismo será mañana miércoles 12 del corriente, de 9:00 a 13:00hs aprox. motivo es por trabajos sobre líneas del sector."},
-
-{"imgURL": "images/internet.svg", "informacion": "CELDA informa un CORTE PROGRAMADO DE INTERNET en el Sector Quintas al oeste de la localidad, específicamente usuarios desde calle Vieytes hacia el Aerogenerador y hasta el cementerio local, sin afectar al Parque Industrial. El mismo será mañana miércoles 12 del corriente, de 9:00 a 13:00hs aprox. motivo es por trabajos sobre líneas del sector."},
-
-{"imgURL": "images/agua.svg", "informacion": "CELDA informa un CORTE PROGRAMADO DE AGUA en el Sector Quintas al oeste de la localidad, específicamente usuarios desde calle Vieytes hacia el Aerogenerador y hasta el cementerio local, sin afectar al Parque Industrial. El mismo será mañana miércoles 12 del corriente, de 9:00 a 13:00hs aprox. motivo es por trabajos sobre líneas del sector." }
+{"imgURL": "images/agua.svg",
+ "informacion": "CELDA informa un CORTE PROGRAMADO DE AGUA en el Sector Quintas al oeste de la localidad, específicamente usuarios desde calle Vieytes hacia el Aerogenerador y hasta el cementerio local, sin afectar al Parque Industrial. El mismo será mañana miércoles 12 del corriente, de 9:00 a 13:00hs aprox. motivo es por trabajos sobre líneas del sector." }
 ]
-
 }
+
+
